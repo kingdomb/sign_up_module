@@ -15,8 +15,19 @@
 }
 
 .logo {
-    width:  7.8125vw;
+    width:  3vw;
+    opacity: .45;
     cursor: pointer;
+}
+
+.logo-text {
+    color: #fbfcfd;
+    z-index: 2;
+    opacity: .80;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 50px;
+    position: absolute;
 }
 
 .navbar {
@@ -92,7 +103,9 @@ h1 {
 }
 
 .bubbles img {
+    width: 70px;
     width: 50px;
+    opacity: .40;
     animation: bubble 7s linear infinite;
 }
 
